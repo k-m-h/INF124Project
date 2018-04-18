@@ -8,6 +8,15 @@ img {
   height: 150px;
   border: 1px solid #000;
 }
+.profile {
+    width: 200px;
+    height: auto;
+}
+.logo {
+    width: 50px;
+    height: auto;
+    border: none;
+}
 .fill {
   object-fit: contain;
 }
