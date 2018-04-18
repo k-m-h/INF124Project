@@ -1,3 +1,9 @@
+a:link {
+  color: black;
+}
+a:visited {
+  color: black;
+}
 table {
   table-layout: fixed;
   width: 100%;
