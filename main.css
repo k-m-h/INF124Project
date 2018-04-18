@@ -36,6 +36,12 @@ img {
 .fill {
   object-fit: contain;
 }
+.linput {
+    width: 200%;
+}
+input {
+    width: 100%;
+}
 
 input:invalid {
   border: 2px solid red;
@@ -47,6 +53,7 @@ input:valid {
 
 div {
     display: inline-block;
+    width: 25%;
 }
 
 div label {

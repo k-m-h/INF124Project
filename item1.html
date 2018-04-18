@@ -18,14 +18,15 @@
     <h4>Majestic Foil Dragon</h4>
     <img src="https://orig00.deviantart.net/0c23/f/2011/235/1/3/aluminum_foil_oriental_dragon_by_reptanglian-d47l2wd.jpg" alt="MDN" class="fill">
     <p>Majestic Foil Dragon</p><p>Price: $290</p><p>Material: Reynold's Fine Small Batch Foil</p>
+    <p>Please enter all fields outlined in red</p>
     <form action="mailto:aluminum.anonymous@gmail.com" method="post" enctype="text/plain">
         <div>
             <label>Product ID:</label>
             <input type="text" name="pid" value="432234" required>
         </div>
         <div>
-            <label>Quantity:</label>
-            <input type="text" name="quantity" required>
+            <label>Quantity (1-999):</label>
+            <input type="text" name="quantity" required pattern="[0-9]{1,3}">
         </div><br>
         <div>
             <label>First Name:</label>
@@ -36,12 +37,12 @@
             <input type="text" name="lastname" required>
         </div><br>
         <div>
-            <label>Phone Number:</label>
-            <input type="text" name="phone" required>
+            <label>Phone Number (use dashes or spaces):</label>
+            <input type="text" name="phone" required pattern="[0-9]{3}[ -][0-9]{3}[ -][0-9]{4}">
         </div><br>
         <div>
             <label>Street Address:</label>
-            <input type="text" name="street" required>
+            <input type="text" name="street" required class="linput">
         </div><br>
         <div>
             <label>City:</label>
@@ -59,11 +60,11 @@
         </div><br>
         <div>
             <label>Credit Card Number:</label>
-            <input type="text" name="creditcard" required>
+            <input type="text" name="creditcard" required pattern="[0-9]{16}">
         </div>
         <div>
             <label>CVV:</label>
-            <input type="text" name="cvv" required>
+            <input type="text" name="cvv" required pattern="[0-9]{3}">
         </div><br><br>
         <input type="submit" value="Send">
         <input type="reset" value="Reset">
