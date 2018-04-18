@@ -16,7 +16,7 @@ td {
   width: 200px;
 }
 body {
-    background: url('http://www.hapco.com/wp-content/uploads/2014/10/aluminum-bg-1920x1080.jpg');
+    /*background: url('http://www.hapco.com/wp-content/uploads/2014/10/aluminum-bg-1920x1080.jpg');*/
     background-repeat: round;
 }
 img {
@@ -35,4 +35,20 @@ img {
 }
 .fill {
   object-fit: contain;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+div {
+    display: inline-block;
+}
+
+div label {
+    display: block;
 }
