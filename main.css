@@ -3,6 +3,12 @@ table {
   width: 100%;
   border: 3px solid black;
 }
+td {
+  border: 3px solid black;
+}
+.picCol {
+  width: 200px;
+}
 body {
     background: url('http://www.hapco.com/wp-content/uploads/2014/10/aluminum-bg-1920x1080.jpg');
     background-repeat: round;
